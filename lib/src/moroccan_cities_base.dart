@@ -54,4 +54,14 @@ class MoroccanCities implements MoroccanCitiesBase {
 
   static final MoroccanCities _instance = MoroccanCities._();
   MoroccanCities._();
+
+  @override
+  Stream<MorrocanCity> citiesOfRegionStream(MorrocanRegion region) {
+    return citiesStream().where((element) => element.region == region.id);
+  }
+
+  @override
+  Future<List<MorrocanCity>> citiesOfRegion(MorrocanRegion region) {
+    return citiesOfRegionStream(region).toList();
+  }
 }
