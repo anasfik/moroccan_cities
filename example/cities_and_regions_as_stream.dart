@@ -1,5 +1,3 @@
-import 'dart:async';
-
 import 'package:moroccan_cities/moroccan_cities.dart';
 
 void main() async {

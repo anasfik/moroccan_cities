@@ -1,7 +1,7 @@
 name: moroccan_cities
-description: A starting point for Dart libraries or applications.
-version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+description: This package represents a utility package for accessing the data of all cities & regions in Morocco, so you can have the option to use it in your app directly without having to search for it or loading it from a remote source via an http request as an example.
+version: 1.2.0
+repository: https://github.com/anasfik/moroccan_cities
 
 environment:
   sdk: ">=2.19.6 <3.0.0"
