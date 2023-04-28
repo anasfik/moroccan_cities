@@ -3,7 +3,6 @@
 This package represents a utility package for accessing the data of all cities & regions in Morocco, so you can have the option to use it in your app directly without having to search for it or loading it from a remote source via an http request as an example.
 
 <br>
-
 ## Why this package?
 
  - This package doesn't require you to load the data from a remote source, so you can use it directly in your app without having to wait for a network request to finish.
